@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">My Application002</string>
+    <string name="app_name">何亚慧</string>
+    <string name="chakan">查看此作业</string>
+    <string name="get_current">您当前已答%1$d,还剩%2$d道</string>
 </resources>

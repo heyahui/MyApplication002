@@ -12,6 +12,7 @@ public class MainActivity002 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main002);
+
         Button button = (Button) findViewById(R.id.work1);
         //Button button1 = (Button) findViewById(R.id.work2);
         class myclass implements View.OnClickListener {
@@ -28,6 +29,22 @@ public class MainActivity002 extends AppCompatActivity {
             public void onClick(View view) {
                 //界面跳转
                 Intent intent=new Intent(MainActivity002.this, Ch2Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button button2 = (Button) findViewById(R.id.work3);
+        button1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                //界面跳转
+                Intent intent = new Intent(MainActivity002.this, Ch3Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button button3 = (Button) findViewById(R.id.work5);
+        button1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                //界面跳转
+                Intent intent = new Intent(MainActivity002.this, Ch5Activity.class);
                 startActivity(intent);
             }
         });
